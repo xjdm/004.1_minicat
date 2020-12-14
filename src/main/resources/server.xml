@@ -1,0 +1,9 @@
+<Server>
+    <Service name="idstaa">
+        <Connector port="8080"/>
+        <Engine defaultHost="localhost">
+            <!-- appBase 就是指定的文件夹 -->
+            <Host name="localhost" appBase="H:/webapps"/>
+        </Engine>
+    </Service>
+</Server>
